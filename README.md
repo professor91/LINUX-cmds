@@ -1,6 +1,6 @@
 # LINUX-cmds
 
-//-------------------------------------------- General commands --------------------------------------------//
+<h3> General commands </h3>
 mkdir <directory name>		--	Make a new folder
 
 rm -rf <file/folder name>	--	Delete the file/folder
@@ -16,7 +16,7 @@ nano file_name           -- lets you edit the file in terminal
 
 
 
-//-------------------------------------------- Pendrive commands --------------------------------------------//
+<h3> Pendrive commands </h3>
 lsblk                           -- shows lists of all drivers available
 lsblk -fb dev/disk_name         -- show the content of mentioned disk
 
@@ -45,7 +45,7 @@ sudo mkfs.file_system_type /dev/disk_name/partition_name
 
 
 
-//-------------------------------------------- Create vitual enviroment in python --------------------------------------------//
+<h3> Create vitual enviroment in python </h3>
 python3 -m venv <name of the virtual env folder>	--	create virtual enviroment
 
 source <name of the virtual env folder)>/bin/activate		--	to activate the enviroment
