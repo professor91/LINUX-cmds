@@ -1,22 +1,21 @@
 # LINUX-cmds
 
-<h3> General commands </h3>
-mkdir <directory name>		--	Make a new folder
+#General commands
+- mkdir <directory name>		--	Make a new folder
+- rm -rf <file/folder name>	--	Delete the file/folder
 
-rm -rf <file/folder name>	--	Delete the file/folder
+- ls      -- 	list all files/folders of the directory
+- ls -a   --  list of all hiddn folders
 
-ls      -- 	list all files/folders of the directory
-ls -a   --  list of all hiddn folders
-
-sudo apt-get update
-sudo apt-full upgrade
+- sudo apt-get update
+- sudo apt-full upgrade
 
 cat file_name.extension  -- shows the data of the file
 nano file_name           -- lets you edit the file in terminal
 
 
 
-<h3> Pendrive commands </h3>
+#Pendrive commands
 
 lsblk                           -- shows lists of all drivers available
   
@@ -47,7 +46,8 @@ sudo mkfs.file_system_type /dev/disk_name/partition_name
 
 
 
-<h3> Create vitual enviroment in python </h3>
+#Create vitual enviroment in python
+
 python3 -m venv <name of the virtual env folder>	--	create virtual enviroment
 
 source <name of the virtual env folder)>/bin/activate		--	to activate the enviroment
