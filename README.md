@@ -32,12 +32,11 @@
                                      |-> click on "Write"                <br />
                                      |-> "Quit"                          <br />
 
-<h2>converting the filesystem of the disk</h2>
+  <h2>converting the filesystem of the disk</h2>
 - sudo mkntfs -Q -L "USBNTFS" /dev/partition_name -- to convert in ntfs file system
 - sudo mkfs.ext4 -L "USBEXT4" /dev/partition_name -- to convert in ext4 file system
-
 - sudo mkfs.vfat -n "USBFAT32" /dev/partition_name -- to convert in fat32 file system (windows compatible)
-
+  
 - sudo eject /dev/sda
 
 # Create vitual enviroment in python
