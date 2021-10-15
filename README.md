@@ -6,20 +6,18 @@ mkdir <directory name>		--	Make a new folder
 rm -rf <file/folder name>	--	Delete the file/folder
 
 ls      -- 	list all files/folders of the directory
-  
 ls -a   --  list of all hiddn folders
 
 sudo apt-get update
-  
 sudo apt-full upgrade
 
 cat file_name.extension  -- shows the data of the file
-  
 nano file_name           -- lets you edit the file in terminal
 
 
 
 <h3> Pendrive commands </h3>
+
 lsblk                           -- shows lists of all drivers available
 lsblk -fb dev/disk_name         -- show the content of mentioned disk
 
