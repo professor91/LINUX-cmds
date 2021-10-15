@@ -26,11 +26,11 @@
 - sudo fdisk -l /dev/disk_name    -- show the filesystem of the disk
 - sudo wipefs -a /dev/disk_name   -- erase existing filesystem from the disk
 
-- sudo cfdisk /dev/disk_name      -- change the filesystem of the disk  <br />
-                                                                           |-> choose "dos"                    <br />
-                                    |-> choose file system (fat32)      <br /> 
-                                    |-> click on "Write"                <br />
-                                    |-> "Quit"                          <br />
+- sudo cfdisk /dev/disk_name      --  change the filesystem of the disk  <br />
+                                     |-> choose "dos"                    <br />
+                                     |-> choose file system (fat32)      <br /> 
+                                     |-> click on "Write"                <br />
+                                     |-> "Quit"                          <br />
 
 <h2>converting the filesystem of the disk</h2>
 - sudo mkntfs -Q -L "USBNTFS" /dev/partition_name -- to convert in ntfs file system
