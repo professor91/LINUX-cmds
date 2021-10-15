@@ -19,6 +19,7 @@ nano file_name           -- lets you edit the file in terminal
 <h3> Pendrive commands </h3>
 
 lsblk                           -- shows lists of all drivers available
+  
 lsblk -fb dev/disk_name         -- show the content of mentioned disk
 
 sudo mount /dev/disk_name       -- mount the disk
