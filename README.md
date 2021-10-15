@@ -27,7 +27,7 @@
 - sudo wipefs -a /dev/disk_name   -- erase existing filesystem from the disk
 
 - sudo cfdisk /dev/disk_name      -- change the filesystem of the disk  <br />
-                                    |-> choose "dos"                    <br />
+                                                                           |-> choose "dos"                    <br />
                                     |-> choose file system (fat32)      <br /> 
                                     |-> click on "Write"                <br />
                                     |-> "Quit"                          <br />
