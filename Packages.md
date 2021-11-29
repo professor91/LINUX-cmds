@@ -1,7 +1,7 @@
+# Packages
 A Package is a collection of lots of files compiled together.
 
-A linux distribution already comes with pre-approved sources to get packages from and this is how it installs
-all base packages you see on your system. on Debian system, this source file is in /etc/apt/sources.list file.
+A linux distribution already comes with pre-approved sources to get packages from and this is how it installs all base packages you see on your system. on Debian system, this source file is in /etc/apt/sources.list file.
 
 Compressing a file in linux:-
     - gzip mycoolfile       -   compresses the file with end extension .gz
