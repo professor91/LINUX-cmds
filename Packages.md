@@ -23,9 +23,9 @@ or you can use tar only with z
     - tar xzf file.tar
 
 
-rpm and dpkg
-    .rpm - Red Hat based
-    .deb - Debian based
+rpm and dpkg <br>
+    .rpm - Red Hat based <br>
+    .deb - Debian based <br>
 
     - Installing a package
         -   dpkg -i some_deb_package.deb
@@ -39,9 +39,9 @@ rpm and dpkg
         -   dpkg -l
         -   rpm -qa
 
-yum and apt
-    yum - for Red Hat
-    apt - for Debian
+yum and apt <br>
+    yum - for Red Hat <br>
+    apt - for Debian <br>
     
     - Installing a package
         -   apt install package_name
