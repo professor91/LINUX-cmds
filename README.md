@@ -1,21 +1,55 @@
 # LINUX-cmds
 
-# General commands
-- mkdir <directory name>		--	Make a new folder
-- rm -rf <file/folder name>	--	Delete the file/folder
+- sudo apt-get update         -- download new updates
+- sudo apt-full upgrade       -- install new updates
 
-- ls      -- 	list all files/folders of the directory
-- ls -a   --  list of all hiddn folders
+# Good First Commands
 
-- sudo apt-get update
-- sudo apt-full upgrade
+- pwd                         --  will Print working directory (the directory in which you are currently in)
+- cd directoryName            --  will open the directoryName directory (directory is also called folder)
 
-- cat file_name.extension  -- shows the data of the file
-- nano file_name           -- lets you edit the file in terminal
+- ls                          -- 	list all files/folders of the directory
+- ls -a                       --  list of all hidden files & folders (hidden file starts with .)
+- ls -l                       --  list of all files with all details
+
+-mkdir directory_name		      --	Make a new directory/folder
+-rm filename                  --	Delete the file
+-rm -f filename               --  Force deletes the file
+-rm -rf directoryname         --  Deletes a directory and all it's files
+
+# Utility commands
+
+- history                     --  shows list of all commands that you have executed on the terminal
+- clear                       --  clears the terminal screen
+- Ctrl + L                    --  scrolls the terminal clean
+                                  sometimes you don't want to use clear command and clear the previously used commands from screen but 
+                                  just scroll everything up so it looks clean as new
+
+- find /directoryName -name name_of_file                      --  to find a file
+- find /directoryName -type type_of_file -name name_of_file   --  to find a specific type of file
+
+- man command_name            --  display's user manual for the command
+- whatis command_name         --  tells about the command
+
+- alias alias_name='command'  -- assign a new alias to an existing command
+- unalias alias_name          -- unassign the assigned alias
+      Eg. alias list='ls'
+          now if you type list, it will work as ls, to undo it use 
+          unalias list
+
+# File commands
+
+-touch filename               --  creates a file titled filename
+                                  if you use touch command and specify name of an existing file/directory
+                                  then it will change the timestamp of the file
+
+-file file_name               --  shows the description of the file
+
+- cat file_name.extension     -- shows the content of the file mentioned
+- nano file_name              -- lets you edit the file in terminal
 
 
-
-# Pendrive commands
+# Disk commands (Pendrive)
 
 - lsblk                           -- shows lists of all drivers available
 - lsblk -fb dev/disk_name         -- show the content of mentioned disk
