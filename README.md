@@ -12,10 +12,10 @@
 - ls -a                       --  list of all hidden files & folders (hidden file starts with .)
 - ls -l                       --  list of all files with all details
 
--mkdir directory_name		      --	Make a new directory/folder
--rm filename                  --	Delete the file
--rm -f filename               --  Force deletes the file
--rm -rf directoryname         --  Deletes a directory and all it's files
+- mkdir directory_name		      --	Make a new directory/folder
+- rm filename                  --	Delete the file
+- rm -f filename               --  Force deletes the file
+- rm -rf directoryname         --  Deletes a directory and all it's files
 
 # Utility commands
 
