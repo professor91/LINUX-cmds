@@ -39,11 +39,11 @@
 
 # File commands
 
--touch filename               --  creates a file titled filename
+- touch filename               --  creates a file titled filename
                                   if you use touch command and specify name of an existing file/directory
                                   then it will change the timestamp of the file
 
--file file_name               --  shows the description of the file
+- file file_name               --  shows the description of the file
 
 - cat file_name.extension     -- shows the content of the file mentioned
 - nano file_name              -- lets you edit the file in terminal
